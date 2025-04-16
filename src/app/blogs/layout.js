@@ -12,6 +12,10 @@ export const metadata = {
     url: "https://tinyurl.com/instagram-clone-expo",
     type: "website",
     images: [
+
+
+
+      
       {
         url: "https://blue-parental-mackerel-801.mypinata.cloud/ipfs/bafybeidvpeaznv4pcszj2zljhhmnwyridf2lgul73h3yt674u22eskixbm",
         width: 1200,

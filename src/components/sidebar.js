@@ -7,7 +7,7 @@ import { SiFiverr } from "react-icons/si"
 import LibraryBooksIcon from "@mui/icons-material/LibraryBooks"
 import { AiOutlineInfoCircle } from "react-icons/ai"
 
-const Sidebar = ({ isVisible, toggleSidebar }) => {
+function Sidebar ({ isVisible, toggleSidebar }){
   return (
     <motion.div
       initial={{ x: "100%" }}  // Sidebar starts from right (100% to the right)
