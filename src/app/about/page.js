@@ -13,7 +13,6 @@ export default function Home() {
   return (
     <div className="relative flex flex-col items-center justify-center w-full h-full bg-black">
       <Navbar textColor={`white`} />
-      <Sidebar />
 
       <div className="flex flex-col flex-wrap justify-center items-center w-full h-[rem] sm:h-screen mt-28">
         <h1 className="text-5xl sm:text-6xl font-extrabold bg-clip-text text-transparent bg-gradient-to-r from-white to-gray-400 text-center w-80 sm:w-[50rem] uppercase">The web framework when it matters</h1>

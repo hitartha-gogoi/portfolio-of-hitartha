@@ -6,8 +6,6 @@ export default function Home() {
   return (
     <div className="relative flex flex-col items-center justify-center w-full h-screen bg-black">
       <Navbar textColor={`white`} />
-      <Sidebar />
-
       <div className="flex flex-row flex-wrap justify-center items-center w-full h-screen">
 
         <div className="flex flex-col justify-center w-96 sm:w-1/2 pl-10 ">
