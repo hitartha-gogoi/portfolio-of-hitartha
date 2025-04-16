@@ -3,7 +3,6 @@ import Image from "next/image";
 import Navbar from "@/components/navbar";
 import Footer from "@/components/footer";
 import { ReactTyped } from "react-typed";
-import OverlappingPhotos from "@/components/photographs";
 import MyAudioPlayer from "@/components/audio-player";
 
 export default function Home() {
