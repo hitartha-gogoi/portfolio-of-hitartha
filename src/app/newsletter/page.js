@@ -3,7 +3,6 @@ import Navbar from "@/components/navbar";
 import Footer from "@/components/footer";
 import OverlappingPhotos from "@/components/photographs";
 import MyAudioPlayer from "@/components/audio-player";
-import Sidebar from "@/components/Sidebar";
 
 export default function Home() {
   return (

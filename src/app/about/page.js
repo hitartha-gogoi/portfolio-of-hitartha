@@ -2,7 +2,6 @@
 import Image from "next/image";
 import Navbar from "@/components/navbar";
 import Footer from "@/components/footer";
-import Sidebar from "@/components/Sidebar";
 import Tweet from "@/components/tweet";
 import Tweets from "@/components/tweets";
 import { ReactTyped } from "react-typed";
