@@ -3,7 +3,7 @@ import { useState, useEffect, useRef } from "react"
 import Image from "next/image";
 import Link from 'next/link';
 import { motion } from 'framer-motion';
-import Sidebar from "@/components/Sidebar";
+import Sidebar from "./sidebar";
 import { FaDiscord } from "react-icons/fa";
 import { AiFillInstagram } from "react-icons/ai";
 import { FaXTwitter } from "react-icons/fa6";
