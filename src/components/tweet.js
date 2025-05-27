@@ -7,7 +7,7 @@ import { FaXTwitter } from "react-icons/fa6";
 
 function Tweet(){
   return (      
-      <div className="bg-cover bg-center mr-5 cursor-pointer transition-transform duration-200 ease-in-out hover:scale-105 flex flex-col justify-center items-center bg-black w-96 rounded-md border border-neutral-600 p-6 mx-4">
+      <div className="bg-cover bg-center mr-5 cursor-pointer transition-transform duration-200 ease-in-out hover:scale-105 flex flex-col justify-center items-center bg-black hover:bg-white w-96 rounded-md border border-neutral-600 p-6 mx-4">
 
         <div className="flex flex-row justify-between items-center w-full ">
             <div className="flex flex-row w-4/5 justify-center items-center">

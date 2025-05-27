@@ -1,5 +1,5 @@
-import { Geist, Geist_Mono, Sixtyfour_Convergence, Inter_Tight, Orbitron, Sacramento, Rob  } from "next/font/google";
-import "./globals.css";
+import { Geist, Geist_Mono, Sixtyfour_Convergence, Inter_Tight, Orbitron, Sacramento  } from "next/font/google";
+import "../globals.css";
 
 export const metadata = {
   title: "Portfolio",
@@ -12,6 +12,10 @@ export const metadata = {
     url: "https://tinyurl.com/instagram-clone-expo",
     type: "website",
     images: [
+
+
+
+      
       {
         url: "https://blue-parental-mackerel-801.mypinata.cloud/ipfs/bafybeidvpeaznv4pcszj2zljhhmnwyridf2lgul73h3yt674u22eskixbm",
         width: 1200,
@@ -78,9 +82,6 @@ export default function RootLayout({ children }) {
           href="https://cdn.jsdelivr.net/npm/@fontsource/fredoka-one/index.css"
           rel="stylesheet"
         />
-        <link rel="preconnect" href="https://fonts.googleapis.com" />
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-        <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet" />
       </head>
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}

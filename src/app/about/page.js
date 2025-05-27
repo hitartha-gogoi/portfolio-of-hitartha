@@ -97,7 +97,7 @@ export default function Home() {
         {/* THE TWO BIG BALLS */}
         <div className="flex flex-col justify-center items-center w-80 h-80 rounded-full bg-blue-600/20 hover:scale-105 hover:shadow-xl transition-transform duration-200 ease-in-out">
           <div className="w-60 h-60 rounded-full bg-blue-600/30 flex flex-col justify-center items-center">
-            <span className="text-2xl font-semibold uppercase text-center flex flex-col justify-center items-center text-blue-500">develop</span>
+            <span className="text-2xl font-semibold uppercase text-center flex flex-col justify-center items-center text-blue-500">Build</span>
           </div>
         </div>
 
@@ -124,7 +124,7 @@ export default function Home() {
 
         <div className="flex flex-col justify-center items-center w-80 h-80 rounded-full bg-blue-600/20 hover:scale-105 hover:shadow-xl transition-transform duration-200 ease-in-out">
           <div className="w-60 h-60 rounded-full bg-blue-600/30 flex flex-col justify-center items-center">
-            <span className="text-2xl font-semibold uppercase text-center text-blue-500">develop</span>
+            <span className="text-2xl font-semibold uppercase text-center text-blue-500">ship</span>
           </div>
         </div>
 

@@ -44,7 +44,7 @@ export default function Home() {
         {/* CARD 1 */}
         <div className="w-80 h-[400px] rounded-lg bg-white bg-[url('https://www.azuki.com/_next/image?url=%2Fhomepage%2FCarousel%2Fwaiting-man.jpg&w=600&q=75')] bg-cover bg-center cursor-pointer shadow-md transition-transform duration-300 transform hover:-translate-y-1 hover:shadow-2xl hover:shadow-gray-900">
           <div className="flex flex-col items-start h-full text-white pt-6 pl-4">
-            <p className="text-xl banner-text font-bold uppercase">Marketplaces</p>
+            <p className="text-xl roboto-font font-bold uppercase">Marketplaces</p>
             <p className="text-sm mt-2 orbitron-font text-gray-200 uppercase">Connecting buyers & sellers in specific industries.</p>
           </div>
         </div>

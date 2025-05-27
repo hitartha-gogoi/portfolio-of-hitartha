@@ -2,7 +2,7 @@ import Tweet from "./tweet";
 
 function Tweets(){
   return (
-    <div className="relative h-screen w-full py-20 overflow-hidden">
+    <div className="relative h-screen w-full overflow-hidden">
       
       {/* Scrolling Row */}
       <div className="scroll-container">
