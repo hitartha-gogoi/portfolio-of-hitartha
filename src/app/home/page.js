@@ -210,7 +210,7 @@ export default function Home() {
                 </div>
               </div>
       
-            </div>
+      </div>
 
       {/* CTA */}
       <div className="flex flex-col justify-center items-center bg-black w-full h-min-screen">

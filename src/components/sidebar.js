@@ -18,7 +18,7 @@ function Sidebar ({ isVisible, toggleSidebar }){
     <ChevronsRight onClick={toggleSidebar} className="w-6 h-6 text-gray-600 hover:text-blue-500 transition duration-300 absolute left-2 top-2" />
     
 
-    <Link href="/admin">
+    <Link href="/services">
     <div className="flex justify-evenly items-center py-2 w-48 border-y-2 border-gray-800 text-black hover:text-blue-900 hover:border-blue-900">
     <span className="inline h-4 w-4">  </span>
     <Typography variant="subtitle6" className="relative right-6 font-bold hover:shadow-xl transition-transform duration-200 ease-in-out mx-4 banner-text uppercase"> services </Typography>
@@ -26,33 +26,28 @@ function Sidebar ({ isVisible, toggleSidebar }){
     </Link>
 
     
-    <Link href="/calendar">
+    <Link href="/blogs">
     <div className="flex justify-evenly items-center py-2 w-48 border-y-2 border-gray-800 text-black hover:text-blue-900 hover:border-blue-900">
     <span className="inline h-4 w-4">  </span>
     <Typography variant="subtitle6" className="relative right-6 font-bold hover:shadow-xl transition-transform duration-200 ease-in-out mx-4 banner-text uppercase"> blogs </Typography>
     </div>
     </Link>
 
-    <Link href="/directory">
+    <Link href="/newsletter">
     <div className="flex justify-evenly items-center py-2 w-48 border-y-2 border-gray-800 text-black hover:text-blue-900 hover:border-blue-900">
     <span className="inline h-4 w-4">  </span>
     <Typography variant="subtitle6" className="relative right-6 font-bold hover:shadow-xl transition-transform duration-200 ease-in-out mx-4 banner-text uppercase"> newsletter </Typography>
     </div>
     </Link>
 
-    <Link href="/gallery">
+    <Link href="/contact">
     <div className="flex justify-evenly items-center py-2 w-48 border-y-2 border-gray-800 text-black hover:text-blue-900 hover:border-blue-900">
     <span className="inline h-4 w-4">  </span>
     <Typography variant="subtitle6" className="relative right-6 font-bold hover:shadow-xl transition-transform duration-200 ease-in-out mx-4 banner-text uppercase"> contact </Typography>
     </div>
     </Link>
 
-    <Link href="/contact">
-    <div className="flex justify-evenly items-center py-2 w-48 border-y-2 border-gray-800 text-black hover:text-blue-900 hover:border-blue-900">
-    <span className="inline h-4 w-4">  </span>
-    <Typography variant="subtitle6" className="relative right-6 font-bold hover:shadow-xl transition-transform duration-200 ease-in-out mx-4 banner-text uppercase"> pricing </Typography>
-    </div>
-    </Link>
+
 
 
     <Link href="/pay-fee">

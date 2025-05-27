@@ -57,7 +57,7 @@ function Navbar({ textColor }) {
       <Sidebar isVisible={isSidebarVisible} toggleSidebar={toggleSidebar} />
 
       {/* Logo */}
-      <Link href="/">
+      <Link href="/home">
         <Image
           src="https://www.azuki.com/Azuki%20Logo%20White.svg"
           alt="logo"
@@ -69,9 +69,9 @@ function Navbar({ textColor }) {
 
       {/* Nav Links */}
       <div className={`flex flex-row justify-center items-center sm:px-10 px-2 text-base uppercase text-${textColor}`}>
-        <Link href="/calendar"><span className="hidden sm:block font-bold hover:shadow-xl mx-4 banner-text">services</span></Link>
-        <Link href="/gallery"><span className="hidden sm:block font-bold hover:shadow-xl mx-4 banner-text">blogs</span></Link>
-        <Link href="/directory"><span className="hidden sm:block font-bold hover:shadow-xl mx-4 banner-text">newsletter</span></Link>
+        <Link href="/services"><span className="hidden sm:block font-bold hover:shadow-xl mx-4 banner-text">services</span></Link>
+        <Link href="/blogs"><span className="hidden sm:block font-bold hover:shadow-xl mx-4 banner-text">blogs</span></Link>
+        <Link href="/newsletter"><span className="hidden sm:block font-bold hover:shadow-xl mx-4 banner-text">newsletter</span></Link>
         
         <span
           className="hidden sm:block font-bold hover:shadow-xl mx-4 banner-text cursor-pointer"
@@ -96,7 +96,6 @@ function Navbar({ textColor }) {
         
 
         <Link href="/contact"><span className="hidden sm:block font-bold hover:shadow-xl mx-4 banner-text">contact</span></Link>
-        <Link href="/pay-fee"><span className="hidden sm:block font-bold hover:shadow-xl mx-4 banner-text">pricing</span></Link>
       </div>
 
       {/* Sidebar Toggle */}

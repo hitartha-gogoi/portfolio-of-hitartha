@@ -5,7 +5,7 @@ import { AiTwotoneCheckCircle, AiFillInstagram, AiFillTwitterSquare,  AiFillLink
 
 function Footer(){
   return (
-    <div className="flex flex-col justify-center items-center bg-neutral-900 w-full py-28 overflow-x-hidden">
+    <div className="flex flex-col justify-center items-center bg-neutral-900 w-full py-28 overflow-x-hidden overflow-y-hidden">
 
       <div className="mt-10 flex flex-row justify-evenly items-center flex-wrap w-full">
 

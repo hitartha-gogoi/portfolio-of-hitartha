@@ -12,6 +12,10 @@ export const metadata = {
     url: "https://tinyurl.com/instagram-clone-expo",
     type: "website",
     images: [
+
+
+
+      
       {
         url: "https://blue-parental-mackerel-801.mypinata.cloud/ipfs/bafybeidvpeaznv4pcszj2zljhhmnwyridf2lgul73h3yt674u22eskixbm",
         width: 1200,
@@ -73,7 +77,6 @@ export default function RootLayout({ children }) {
         />
         <link rel="preconnect" href="https://fonts.googleapis.com"></link>
         <link rel="preconnect" href="https://fonts.gstatic.com"></link>
-        <script src="https://unpkg.com/@phosphor-icons/web"></script>
         <link href="https://fonts.googleapis.com/css2?family=Inter+Tight:ital,wght@0,100..900;1,100..900&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Orbitron:wght@400..900&family=Sacramento&family=Sixtyfour+Convergence&display=swap" rel="stylesheet"></link>
         <link
           href="https://cdn.jsdelivr.net/npm/@fontsource/fredoka-one/index.css"
