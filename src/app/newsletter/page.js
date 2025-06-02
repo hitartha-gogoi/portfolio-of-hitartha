@@ -63,10 +63,10 @@ export default function NewsletterPage() {
         </div>
 
          {/* FOR WHOM? */}
-        <section className="w-full flex flex-col items-center bg-black justify-center mt-24 space-y-6 text-center mb-28 banner-text py-10">
+        <section className="w-full flex flex-col items-center bg-black justify-center space-y-6 text-center mb-12 banner-text py-10">
           <h2 className="text-center sm:w-4/6 w-80 font-inter  text-4xl sm:text-6xl font-semibold text-gray-300 py-28">How they are growing their audience with Tapilio</h2>
           <p className="text-lg banner-text font-light text-gray-100"></p>
-          <Image src="https://www.azuki.com/_next/image?url=https%3A%2F%2Fimages.ctfassets.net%2Fj7912igus1qi%2F7N0Y3sNcDtAe6w8dkCMHfh%2F70ae8dc162a3cfa98e93de954c1bcabd%2Fstatic.jpg&w=3840&q=75" alt="Hero Image" width={500} height={500} className="w-5/6 h-96 object-fit rounded-lg shadow-lg" />
+          
         </section>
 
         {/* WHY SUBSCRIBE */}

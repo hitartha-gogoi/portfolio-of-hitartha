@@ -15,14 +15,18 @@ import { FaXTwitter } from "react-icons/fa6";
 import CountUp from "react-countup";
 import millify from "millify";
 import { BiBarChartAlt2 } from "react-icons/bi";
-import { ReactTyped } from "react-typed";
 import { MdOutlineTerminal } from "react-icons/md";
+import { ReactTyped } from "react-typed";
 
 const FAQs = [
-  { title: "What is Taplio and how can it help me grow my audience?", content: ` By accessing or using the Bar Association Bahadurgarh  ("the Website"), you agree to comply with and be bound by these Terms and Conditions. If you do not agree to these Terms and Conditions, please do not use the Website.` },
-  { title: "What can I try during Taplio’s 7-day free trial?", content: "Bar Association Bahadurgarh reserves the right to modify, amend, or update these Terms and Conditions at any time without prior notice. Any changes will be effective immediately upon posting. Your continued use of the Website following the posting of changes constitutes your acceptance of those changes." },
-  { title: "What is the Taplio X Chrome extension and why do I need it?", content: "You agree to use the Website for lawful purposes only and in compliance with all applicable laws and regulations. You shall not engage in any activity that may interfere with or disrupt the functioning of the Website or its associated services." },
-  { title: "Is Taplio safe to use?", content: " If the Website offers user account registration, you are responsible for maintaining the confidentiality of your account credentials and for all activities that occur under your account. You agree to provide accurate and up-to-date information when creating your account and to update your information promptly if it changes." },
+  { title: "What is PeakLauchers all about?", content: `We are a full-stack development agency specializing in fast, scalable web and mobile applications. We convert your ideas into high-quality digital products using cutting-edge technologies, including React, Next.js, Flask, FastAPI, React Native, and AI/ML frameworks. We also offer automation, web scraping, and AI solutions tailored to your business needs.` },
+  { title: "What technologies do you specialize in?", content: "We specialize in full-stack development using React, Next.js, Flask, FastAPI, and the MERN stack. For mobile apps, we use React Native. We also provide automation with Puppeteer and Beautiful Soup, plus AI/ML solutions with PyTorch and TensorFlow." },
+  { title: "Do you build both web and mobile applications?", content: "Yes, we develop highly scalable and SEO-friendly web applications as well as native-like mobile apps for Android using React Native." },
+  { title: "Can you help with MVP and prototype development?", content: "Absolutely! We focus on rapid prototyping and MVP delivery to help you validate and launch your ideas quickly." },
+  { title: "How do you ensure the security and quality of your applications?", content: "Our development process emphasizes clean, maintainable code, thorough testing, and adherence to best practices in security and performance to deliver enterprise-grade quality products." },
+  { title: "Do you offer ongoing support and maintenance?", content: "Yes, we provide support and maintenance packages to ensure your applications run smoothly and stay updated with evolving technologies." },
+  { title: "How long does it take to deliver a project?", content: "Project timelines depend on complexity and scope. However, we prioritize fast delivery with high quality, often providing MVPs within weeks." },
+  { title: " Can you integrate AI or machine learning features into my app?", content: "Yes, we build AI/ML features using frameworks like PyTorch and TensorFlow, ranging from predictive models to automation and smart analytics." },
 ];
 
 
@@ -40,7 +44,7 @@ export default function Home() {
       <Navbar textColor={`black`} />
 
       {/* TOP HEADING */}
-      <h1 className={`font-semibold bg-clip-text text-transparent bg-gradient-to-r from-gray-900 to-gray-600 sm:w-3/6 w-80 text-center text-4xl sm:text-6xl leading-tight space-y-2 mt-32`}>  Write the posts you need to grow on <span className="bg-gray-200 text-black mt-10 px-2 rounded-md">LinkedIn</span> </h1>
+      <h1 className={`font-semibold bg-clip-text text-transparent bg-gradient-to-r from-gray-900 to-gray-600 sm:w-3/6 w-80 text-center text-4xl sm:text-6xl leading-tight space-y-2 mt-32`}>Build and craft your app with <span className="bg-gray-200 text-black mt-10 px-2 rounded-md">peak</span> <ReactTyped typeSpeed={10} backSpeed={10} loop startDelay={1000} backDelay={5000} className="" strings={[`potential`, `performance` ]} /></h1>
 
       {/* SOCIAL MEDIA STATS */}
       <div className="flex space-x-10 text-black font-bold text-xl mt-4 ">
@@ -58,26 +62,26 @@ export default function Home() {
       
       {/* OTHER STATS */}
       <div className="flex flex-row justify-center items-center flex-wrap sm:space-y-0 space-y-4 sm:space-x-4 space-x-0">
-        <div className="text-black font-extrabold text-xs text-center px-4 py-2 rounded-2xl border-black border uppercase hover:scale-105  bg-black/10 shadow-xl shadow-gray-300 transition-all duration-300 flex"><BsCheckCircleFill className="text-black mr-2" size={16} /> SEARCH VIRAL POSTS FOR IDEAS</div>
-        <div className="text-black font-extrabold text-xs text-center px-4 py-2 rounded-2xl border-black border uppercase hover:scale-105  bg-black/10 shadow-xl shadow-gray-300 transition-all duration-300 flex"><FaChartLine className="text-black mr-2" size={16} /> SEARCH VIRAL POSTS FOR IDEAS</div>
-        <div className="text-black font-extrabold text-xs text-center px-4 py-2 rounded-2xl border-black border uppercase hover:scale-105  bg-black/10 shadow-xl shadow-gray-300 transition-all duration-300 flex"><BiBarChartAlt2 className="text-black mr-2" size={16} /> SEARCH VIRAL POSTS FOR IDEAS</div>
+        <div className="text-black font-extrabold text-xs text-center px-4 py-2 rounded-2xl border-black border uppercase hover:scale-105  bg-black/10 shadow-xl shadow-gray-300 transition-all duration-300 flex"><BsCheckCircleFill className="text-black mr-2 uppercase" size={16} /> SEARCH VIRAL POSTS FOR IDEAS</div>
+        <div className="text-black font-extrabold text-xs text-center px-4 py-2 rounded-2xl border-black border uppercase hover:scale-105  bg-black/10 shadow-xl shadow-gray-300 transition-all duration-300 flex"><FaChartLine className="text-black mr-2 uppercase" size={16} /> seo friendly web apps</div>
+        <div className="text-black font-extrabold text-xs text-center px-4 py-2 rounded-2xl border-black border uppercase hover:scale-105  bg-black/10 shadow-xl shadow-gray-300 transition-all duration-300 flex"><BiBarChartAlt2 className="text-black mr-2 uppercase" size={16} /> highly scalable </div>
       </div>
 
       <button className="w-80 my-10 py-3 bg-black text-white font-semibold rounded-lg hover:bg-zinc-800 hover:scale-105 transition-all duration-300 shadow-sm hover:shadow-md uppercase">start now</button>
 
       <div className="flex flex-col justify-center items-center w-full min-h-96 text-4xl sm:text-6xl font-semibold text-center text-gray-300 bg-black my-10">
-       <span className="text-center sm:w-4/6 w-80 font-inter">Discover  , your go-to solution to make people hear about you on LinkedIn</span> 
+       <span className="text-center sm:w-4/6 w-80 font-inter">Discover  , your go-to solution for building highly scalable Full-Stack applications</span> 
       </div>
 
 
       {/* DESCRIPTION */}
       <div className="flex flex-col justify-center items-center w-full min-h-screen my-4">
-        <div className="text-black font-extrabold text-xs text-center px-4 py-2 rounded-2xl border-black border uppercase hover:scale-105  bg-black/10 shadow-xl shadow-gray-300 transition-all duration-300 flex"><FiBox className="text-black mr-2" size={16} /> SEARCH VIRAL POSTS FOR IDEAS</div>
+        <div className="text-black font-extrabold text-xs text-center px-4 py-2 rounded-2xl border-black border uppercase hover:scale-105  bg-black/10 shadow-xl shadow-gray-300 transition-all duration-300 flex"><FiBox className="text-black mr-2" size={16} /> full stack web applications</div>
 
         <div className="flex flex-row items-center justify-center w-full mt-10 flex-wrap sm:space-x-4 space-x-0 sm:space-y-0 space-y-4 ">
             <div className="w-80 h-2/6 flex flex-col justify-center items-center space-y-8 rounded-lg shadow-lg px-4 sm:w-2/6 py-20">
-                <h1 className="self-start font-semibold text-black text-3xl sm:text-4xl leading-tight font-inter">Get inspired by top viral posts in your specific <span className="bg-gray-200 text-black mt-10 px-2 rounded-md">LinkedIn</span></h1>
-                <p className="text-gray-700 text-xs sm:text-sm self-start font-medium">Enter keywords, and Taplio curates thousands of the most successful posts on any topic you choose. Unlike LinkedIn search, we highlight what's working best among millions of posts, so you never run out of content ideas that work.</p>
+                <h1 className="self-start font-semibold text-black text-3xl sm:text-4xl leading-tight font-inter">Full-Stack Web <span className="bg-gray-200 text-black mt-10 px-2 rounded-md">applications</span></h1>
+                <p className="text-gray-700 text-xs sm:text-sm self-start font-medium">We build robust, scalable, and SEO-friendly full-stack web applications using React, Next.js, Flask, FastAPI, and the MERN stack. From MVPs to enterprise-grade products, we ensure fast delivery without compromising quality.</p>
                 <span className="text-blue-600 self-start underline">Learn more</span>
             </div>
             <Image src="/images/hero.png" alt="Hero Image" width={500} height={500} className="w-80 sm:w-2/6  object-cover rounded-lg shadow-lg" />
@@ -87,13 +91,13 @@ export default function Home() {
 
       {/* DESCRIPTION */}
       <div className="flex flex-col justify-center items-center w-full min-h-screen my-2">
-        <div className="text-black font-extrabold text-xs text-center px-4 py-2 rounded-2xl border-black border uppercase hover:scale-105  bg-black/10 shadow-xl shadow-gray-300 transition-all duration-300 flex"><FiBox className="text-black mr-2" size={16} /> SEARCH VIRAL POSTS FOR IDEAS</div>
+        <div className="text-black font-extrabold text-xs text-center px-4 py-2 rounded-2xl border-black border uppercase hover:scale-105  bg-black/10 shadow-xl shadow-gray-300 transition-all duration-300 flex"><FiBox className="text-black mr-2" size={16} /> native applications</div>
 
         <div className="flex flex-row items-center justify-center w-full mt-10 flex-wrap sm:space-x-4 space-x-0 sm:space-y-0 space-y-4 ">
             <Image src="/images/hero.png" alt="Hero Image" width={500} height={500} className="w-80 sm:w-2/6  object-cover rounded-lg shadow-lg" />
             <div className="w-80 h-2/6 flex flex-col justify-center items-center space-y-8 rounded-lg shadow-lg px-4 sm:w-2/6 py-20">
-                <h1 className="self-start font-semibold text-black text-3xl sm:text-4xl leading-tight font-inter">Get inspired by top viral posts in your specific <span className="bg-gray-200 text-black mt-10 px-2 rounded-md">LinkedIn</span></h1>
-                <p className="text-gray-700 text-xs sm:text-sm self-start font-medium">Enter keywords, and Taplio curates thousands of the most successful posts on any topic you choose. Unlike LinkedIn search, we highlight what's working best among millions of posts, so you never run out of content ideas that work.</p>
+                <h1 className="self-start font-semibold text-black text-3xl sm:text-4xl leading-tight font-inter">Native Applications <span className="bg-gray-200 text-black mt-10 px-2 rounded-md">(Android)</span></h1>
+                <p className="text-gray-700 text-xs sm:text-sm self-start font-medium">Using React Native, we create smooth, high-performance native mobile apps that deliver exceptional user experiences across platforms — fast, efficient, and ready to scale.</p>
                 <span className="text-blue-600 self-start underline">Learn more</span>
             </div>
             
@@ -103,12 +107,12 @@ export default function Home() {
 
       {/* DESCRIPTION */}
       <div className="flex flex-col justify-center items-center w-full min-h-screen my-4">
-        <div className="text-black font-extrabold text-xs text-center px-4 py-2 rounded-2xl border-black border uppercase hover:scale-105  bg-black/10 shadow-xl shadow-gray-300 transition-all duration-300 flex"><FiBox className="text-black mr-2" size={16} /> SEARCH VIRAL POSTS FOR IDEAS</div>
+        <div className="text-black font-extrabold text-xs text-center px-4 py-2 rounded-2xl border-black border uppercase hover:scale-105  bg-black/10 shadow-xl shadow-gray-300 transition-all duration-300 flex"><FiBox className="text-black mr-2" size={16} /> automation scripts</div>
 
         <div className="flex flex-row items-center justify-center w-full mt-10 flex-wrap sm:space-x-4 space-x-0 sm:space-y-0 space-y-4 ">
             <div className="w-80 h-2/6 flex flex-col justify-center items-center space-y-8 rounded-lg shadow-lg px-4 sm:w-2/6 py-20">
-                <h1 className="self-start font-semibold text-black text-3xl sm:text-4xl leading-tight font-inter">Get inspired by top viral posts in your specific <span className="bg-gray-200 text-black mt-10 px-2 rounded-md">LinkedIn</span></h1>
-                <p className="text-gray-700 text-xs sm:text-sm self-start font-medium">Enter keywords, and Taplio curates thousands of the most successful posts on any topic you choose. Unlike LinkedIn search, we highlight what's working best among millions of posts, so you never run out of content ideas that work.</p>
+                <h1 className="self-start font-semibold text-black text-3xl sm:text-4xl leading-tight font-inter">Automation <span className="bg-gray-200 text-black mt-10 px-2 rounded-md">Workflows</span></h1>
+                <p className="text-gray-700 text-xs sm:text-sm self-start font-medium">Boost productivity with custom automation scripts built using Puppeteer and Beautiful Soup. Automate repetitive tasks, data extraction, and web scraping tailored to your business needs.</p>
                 <span className="text-blue-600 self-start underline">Learn more</span>
             </div>
             <Image src="/images/hero.png" alt="Hero Image" width={500} height={500} className="w-80 sm:w-2/6  object-cover rounded-lg shadow-lg" />
@@ -118,7 +122,10 @@ export default function Home() {
       
       {/* TESTIMONIALS */}
        <div className="flex flex-col justify-center items-center w-full min-h-screen my-10 bg-black mx-4 shadow-2xl">
-       <span className="text-center sm:w-4/6 w-80 font-inter  text-4xl sm:text-6xl font-semibold text-gray-300 py-28">How they are growing their audience with Tapilio</span> 
+       <p className="text-center sm:w-4/6 w-80 font-inter  text-4xl sm:text-6xl font-semibold text-gray-300 py-28">
+       <p>Don't just take our words.</p>
+       <p>Here's what people have to say about us</p>
+       </p>
        <Tweets />
       </div>
 
@@ -217,7 +224,7 @@ export default function Home() {
         <div className="flex flex-col justify-center items-center sm:w-4/6 w-88">
           <FaChartLine className="text-gray-300 w-20 h-20 self-start sm:ml-10 sm:mt-10 ml-0 mt-0" />
           <div className="flex flex-col items-center justify-center space-y-2">
-            <span className="text-center sm:w-4/6 w-80 font-inter self-center text-4xl sm:text-6xl font-semibold text-gray-300 py-28">Ready to grow your LinkedIn brand?</span>
+            <span className="text-center sm:w-4/6 w-80 font-inter self-center text-4xl sm:text-6xl font-semibold text-gray-300 py-28">Ready to launch your next app idea?</span>
             <button className="w-80 my-10 py-3 bg-zinc-800 text-white hover:text-black font-semibold rounded-lg hover:bg-zinc-100 hover:scale-105 transition-all duration-300 shadow-sm hover:shadow-md uppercase">start now</button>
           </div>
           <BiBarChartAlt2 className="text-gray-300 w-20 h-20 self-end sm:mb-10 sm:mr-10 mb-0 mr-0" />
